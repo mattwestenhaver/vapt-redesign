@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
-import Navbar from './components/Navbar.jsx'
+import Navbar from './components/navbar/Navbar'
 import Home from './components/home'
 import Videos from './components/videos'
 import Services from './components/services'
@@ -17,7 +17,7 @@ const theme = createMuiTheme({
       main: '#232323',
     },
     secondary: {
-      main: '#999999',
+      main: '#ffffff',
     },
   }
 });
