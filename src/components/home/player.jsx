@@ -1,13 +1,13 @@
 import React from 'react'
 
-class Home extends React.Component {
+class Player extends React.Component {
   render() {
     return (
       <div>
-        <h1>Home page</h1>
+        <h2>360 player</h2>
       </div>
     )
   }
 }
 
-export default Home
+export default Player

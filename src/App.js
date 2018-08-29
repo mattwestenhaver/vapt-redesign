@@ -5,7 +5,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import blue from '@material-ui/core/colors/blue';
 
 import Navbar from './components/Navbar.jsx'
-import Home from './components/Home.jsx'
+import Home from './components/home'
 
 const theme = createMuiTheme({
   palette: {

@@ -5,8 +5,10 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+// import IconButton from '@material-ui/core/IconButton';
+// import MenuIcon from '@material-ui/icons/Menu';
+
+import whiteLogo from '../images/virtualapt-logo.png'
 
 const styles = {
   root: {
@@ -27,13 +29,18 @@ function Navbar(props) {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+          {/* <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
             <MenuIcon />
-          </IconButton>
+          </IconButton> */}
           <Typography variant="title" color="inherit" className={classes.flex}>
-            News
+            <img src={whiteLogo} alt='VirtualAPT White Logo' className='navbar-logo'/>
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Home</Button>
+          <Button color="inherit">Videos</Button>
+          <Button color="inherit">Services</Button>
+          <Button color="inherit">Press</Button>
+          <Button color="inherit">Team</Button>
+          <Button color="inherit">Contact</Button>
         </Toolbar>
       </AppBar>
     </div>
