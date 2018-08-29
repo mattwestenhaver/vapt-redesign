@@ -3,8 +3,10 @@ import React from 'react'
 class Videos extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Videos Page</h1>
+      <div className="videos-container">
+        <div className='page-header'>
+          <h1>Videos</h1>
+        </div>
       </div>
     )
   }

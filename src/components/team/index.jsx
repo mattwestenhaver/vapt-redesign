@@ -3,8 +3,10 @@ import React from 'react'
 class Team extends React.Component {
   render() {
     return (
-      <div>
-        <h1>Team Page</h1>
+      <div className='team-container'>
+        <div className='page-header'>
+          <h1>Team</h1>
+        </div>
       </div>
     )
   }

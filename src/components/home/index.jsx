@@ -1,18 +1,18 @@
 import React from 'react'
 import Player from './player.jsx'
-import { Parallax } from 'react-parallax';
+import { Parallax, Background } from 'react-parallax';
 import BrooklynBridge from '../../images/BrooklynBridge2.jpg'
 
 class Home extends React.Component {
   render() {
     return (
         <div>
-          <div style={{ height: '400px' }} />
+          <div className='player-container'></div>
           <Parallax
             blur={0.3}
             bgImage={BrooklynBridge}
             bgImageAlt="the bridge"
-            strength={400}
+            strength={300}
           >
             <div style={{ height: '500px' }} />
           </Parallax>
