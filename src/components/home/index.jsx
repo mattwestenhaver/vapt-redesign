@@ -16,7 +16,7 @@ class Home extends React.Component {
         >
           <div style={{ height: '500px' }} />
         </Parallax>
-        <div style={{ height: '600px' }} />
+        <div style={{ height: '500px' }} />
       </div>
     )
   }

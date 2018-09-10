@@ -10,6 +10,7 @@ import Services from './components/services'
 import Press from './components/press'
 import Team from './components/team'
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 const theme = createMuiTheme({
   palette: {
@@ -37,6 +38,7 @@ class App extends Component {
               <Route path='/team' component={Team} />
               <Route path='/contact' component={Contact} />
             </div>
+            <Footer />
           </div>
         </Router>
       </MuiThemeProvider>
